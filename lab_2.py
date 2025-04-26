@@ -1,11 +1,10 @@
 #Sort
 elemnts = []
-
 print("enter 5 string elements:")
 while True:
     if len(elemnts) == 5:
         break
-    ele = input(f"element:")
+    ele = input("element:")
     if ele.strip().isalpha():
         elemnts.append(ele)
     else:
